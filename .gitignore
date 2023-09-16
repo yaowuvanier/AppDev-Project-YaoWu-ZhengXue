@@ -1,0 +1,21 @@
+# Ignore compiled binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore log and temporary files
+*.log
+*.tmp
+
+# Ignore configuration files with sensitive data
+config.ini
+secrets.json
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore operating system specific files
+.DS_Store
+Thumbs.db
