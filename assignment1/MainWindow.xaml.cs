@@ -26,171 +26,19 @@ namespace assignment1
         {
             InitializeComponent();
         }
-        public static NpgsqlConnection con; 
-        public static NpgsqlCommand cmd;
-        private void establishConnect()
-        {
 
-            try
-            {
-                con = new NpgsqlConnection(get_ConnectionString());
-                MessageBox.Show("Connection Established");
-            }
-            catch (NpgsqlException ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
+        
+
+        private void admin_Click(object sender, RoutedEventArgs e)
+        {
+            admin ad = new admin();
+            ad.Show();
         }
 
-        private string get_ConnectionString()
+        private void sales_Click(object sender, RoutedEventArgs e)
         {
-            /**
-             * need to pass five values
-             */
-            string host = "Host=localhost;";
-            string port = "Port=5432;";
-            string dbName = "Database=vanierAEC Fall2023;";
-            string userName = "Username=postgres;";
-            string password = "Password=1234;";
-
-            string connectionString = string.Format("{0}{1}{2}{3}{4}", host, port, dbName, userName, password);
-            return connectionString;
-        }
-
-        private void insert_Click(object sender, RoutedEventArgs e)
-        {
-            try
-            {
-                
-                establishConnect();
-                con.Open();
-                string Query = "insert into fruit values(@productName,@productId,@amount,@price) ";
-                
-                cmd = new NpgsqlCommand(Query, con);//dynamic memory allocation of the command
-                                                    //4.1 add define values for the variables in the query
-                cmd.Parameters.AddWithValue("@productName", name.Text);
-                cmd.Parameters.AddWithValue("@productId", int.Parse(id.Text));
-                cmd.Parameters.AddWithValue("@amount", int.Parse(amount.Text));
-                cmd.Parameters.AddWithValue("@price", double.Parse(price.Text));
-
-                cmd.ExecuteNonQuery();
-                MessageBox.Show("Item created successfully");
-                con.Close();
-            }
-            catch (NpgsqlException ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-        }
-
-        private void select_Click(object sender, RoutedEventArgs e)
-        {
-            try
-            {
-                establishConnect();
-                con.Open();
-                string Query = "select * from fruit where productid=@id";
-                cmd = new NpgsqlCommand(Query, con);
-                cmd.Parameters.AddWithValue("@id", int.Parse(id.Text));
-                NpgsqlDataAdapter da = new NpgsqlDataAdapter(cmd);
-                DataTable dt = new DataTable();
-                da.Fill(dt);
-                dataGird.ItemsSource = dt.AsDataView();
-                DataContext = da;
-                con.Close();
-
-            }
-            catch (NpgsqlException ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-        }
-
-        private void show_Click(object sender, RoutedEventArgs e)
-        {
-            try
-            {
-                establishConnect();
-                con.Open();
-                string Query = "Select * from fruit";
-                cmd = new NpgsqlCommand(Query, con);
-                NpgsqlDataAdapter da = new NpgsqlDataAdapter(cmd);
-                DataTable dt = new DataTable();
-                da.Fill(dt);
-                dataGird.ItemsSource = dt.AsDataView();
-                DataContext = da;
-                con.Close();
-            }
-            catch (NpgsqlException ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-        }
-
-        private void update_Click(object sender, RoutedEventArgs e)
-        {
-            try
-            {
-                establishConnect();
-                con.Open();
-
-                string Query = "UPDATE fruit SET productname = @productName, amount = @amount, price = @price WHERE productid = @productId";
-
-                cmd = new NpgsqlCommand(Query, con);
-
-                cmd.Parameters.AddWithValue("@productName", name.Text);
-                cmd.Parameters.AddWithValue("@productId", int.Parse(id.Text));
-                cmd.Parameters.AddWithValue("@amount", int.Parse(amount.Text));
-                cmd.Parameters.AddWithValue("@price", double.Parse(price.Text));
-
-                int rowsAffected = cmd.ExecuteNonQuery();
-
-                if (rowsAffected > 0)
-                {
-                    MessageBox.Show("Item updated successfully");
-                }
-                else
-                {
-                    MessageBox.Show("No records were updated.");
-                }
-
-                con.Close();
-            }
-            catch (NpgsqlException ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-        }
-
-        private void delete_Click(object sender, RoutedEventArgs e)
-        {
-            try
-            {
-                establishConnect();
-                con.Open();
-
-                string Query = "DELETE FROM fruit WHERE productid = @productId";
-
-                cmd = new NpgsqlCommand(Query, con);
-                cmd.Parameters.AddWithValue("@productId", int.Parse(id.Text));
-
-                int rowsAffected = cmd.ExecuteNonQuery();
-
-                if (rowsAffected > 0)
-                {
-                    MessageBox.Show("Item deleted successfully");
-                }
-                else
-                {
-                    MessageBox.Show("No records were deleted.");
-                }
-
-                con.Close();
-            }
-            catch (NpgsqlException ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
+            sales sales = new sales();  
+            sales.Show();
         }
     }
 

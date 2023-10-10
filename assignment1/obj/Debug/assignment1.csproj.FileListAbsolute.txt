@@ -44,3 +44,7 @@ C:\Users\xuezh\OneDrive\桌面\AppDevProject\assignment1\assignment1\bin\Debug\S
 C:\Users\xuezh\OneDrive\桌面\AppDevProject\assignment1\assignment1\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\xuezh\OneDrive\桌面\AppDevProject\assignment1\assignment1\bin\Debug\System.ValueTuple.xml
 C:\Users\xuezh\OneDrive\桌面\AppDevProject\assignment1\assignment1\obj\Debug\assignment1.csproj.CopyComplete
+C:\Users\xuezh\OneDrive\桌面\AppDevProject\assignment1\assignment1\obj\Debug\sales.g.cs
+C:\Users\xuezh\OneDrive\桌面\AppDevProject\assignment1\assignment1\obj\Debug\admin.g.cs
+C:\Users\xuezh\OneDrive\桌面\AppDevProject\assignment1\assignment1\obj\Debug\sales.baml
+C:\Users\xuezh\OneDrive\桌面\AppDevProject\assignment1\assignment1\obj\Debug\admin.baml
