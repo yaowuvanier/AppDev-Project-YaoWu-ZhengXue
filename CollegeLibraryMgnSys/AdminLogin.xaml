@@ -1,0 +1,28 @@
+﻿<Window x:Class="CollegeLibraryMgnSys.AdminLogin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CollegeLibraryMgnSys"
+        mc:Ignorable="d"
+               WindowStyle="ToolWindow" ResizeMode="NoResize"
+        Title="Admin Login" Height="400" Width="342">
+    <Window.Background>
+        <ImageBrush ImageSource="/book.jpg"/>
+    </Window.Background>
+    <Grid>
+        <Rectangle Fill="{DynamicResource {x:Static SystemColors.WindowBrushKey}}" HorizontalAlignment="Left" Height="294" Margin="30,40,0,0" Stroke="Black" VerticalAlignment="Top" Width="274" Opacity="0.7"/>
+
+        <Label Content="    Admin Login" Margin="92,70,88,0" VerticalAlignment="Top" Height="42" Width="156" FontSize="18" HorizontalAlignment="Center"/>
+        <StackPanel HorizontalAlignment="Left" Height="120" Margin="66,137,0,0" VerticalAlignment="Top" Width="204">
+            <Label Content="Email" Height="32"/>
+            <TextBox Height="20" TextWrapping="Wrap" Name="tbAdminEmail"/>
+            <Label Content="Password" Height="32" />
+            <TextBox Height="20" TextWrapping="Wrap" Name="tbAdminPass"/>
+        </StackPanel>
+        <Button Content="Login" HorizontalAlignment="Left" Margin="66,274,0,0" VerticalAlignment="Top" Width="74" Name="BtnLogin" Click="BtnLogin_Click" />
+        <Label Content="" HorizontalAlignment="Left" Margin="66,308,0,0" VerticalAlignment="Top" Width="204" Name="alertAdmin" Foreground="Red"/>
+        <Button x:Name="ALclose" Content="X" HorizontalAlignment="Left" Height="24" Margin="280,40,0,0" VerticalAlignment="Top" Width="24" IsCancel="True" FontSize="16" Click="ALclose_Click"/>
+
+    </Grid>
+</Window>
