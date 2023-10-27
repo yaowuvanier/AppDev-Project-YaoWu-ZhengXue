@@ -1,0 +1,66 @@
+C:\Users\xuezh\OneDrive\桌面\webservice assignment\FruitCalculator2\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\xuezh\OneDrive\桌面\webservice assignment\FruitCalculator2\bin\Debug\net6.0\appsettings.json
+C:\Users\xuezh\OneDrive\桌面\webservice assignment\FruitCalculator2\bin\Debug\net6.0\FruitCalculator2RestAPI.exe
+C:\Users\xuezh\OneDrive\桌面\webservice assignment\FruitCalculator2\bin\Debug\net6.0\FruitCalculator2RestAPI.deps.json
+C:\Users\xuezh\OneDrive\桌面\webservice assignment\FruitCalculator2\bin\Debug\net6.0\FruitCalculator2RestAPI.runtimeconfig.json
+C:\Users\xuezh\OneDrive\桌面\webservice assignment\FruitCalculator2\bin\Debug\net6.0\FruitCalculator2RestAPI.dll
+C:\Users\xuezh\OneDrive\桌面\webservice assignment\FruitCalculator2\bin\Debug\net6.0\FruitCalculator2RestAPI.pdb
+C:\Users\xuezh\OneDrive\桌面\webservice assignment\FruitCalculator2\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\xuezh\OneDrive\桌面\webservice assignment\FruitCalculator2\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\xuezh\OneDrive\桌面\webservice assignment\FruitCalculator2\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\xuezh\OneDrive\桌面\webservice assignment\FruitCalculator2\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\xuezh\OneDrive\桌面\webservice assignment\FruitCalculator2\obj\Debug\net6.0\FruitCalculator2RestAPI.csproj.AssemblyReference.cache
+C:\Users\xuezh\OneDrive\桌面\webservice assignment\FruitCalculator2\obj\Debug\net6.0\FruitCalculator2RestAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\xuezh\OneDrive\桌面\webservice assignment\FruitCalculator2\obj\Debug\net6.0\FruitCalculator2RestAPI.AssemblyInfoInputs.cache
+C:\Users\xuezh\OneDrive\桌面\webservice assignment\FruitCalculator2\obj\Debug\net6.0\FruitCalculator2RestAPI.AssemblyInfo.cs
+C:\Users\xuezh\OneDrive\桌面\webservice assignment\FruitCalculator2\obj\Debug\net6.0\FruitCalculator2RestAPI.csproj.CoreCompileInputs.cache
+C:\Users\xuezh\OneDrive\桌面\webservice assignment\FruitCalculator2\obj\Debug\net6.0\FruitCalculator2RestAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\xuezh\OneDrive\桌面\webservice assignment\FruitCalculator2\obj\Debug\net6.0\FruitCalculator2RestAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\xuezh\OneDrive\桌面\webservice assignment\FruitCalculator2\obj\Debug\net6.0\staticwebassets\msbuild.FruitCalculator2RestAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\xuezh\OneDrive\桌面\webservice assignment\FruitCalculator2\obj\Debug\net6.0\staticwebassets\msbuild.build.FruitCalculator2RestAPI.props
+C:\Users\xuezh\OneDrive\桌面\webservice assignment\FruitCalculator2\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.FruitCalculator2RestAPI.props
+C:\Users\xuezh\OneDrive\桌面\webservice assignment\FruitCalculator2\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.FruitCalculator2RestAPI.props
+C:\Users\xuezh\OneDrive\桌面\webservice assignment\FruitCalculator2\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\xuezh\OneDrive\桌面\webservice assignment\FruitCalculator2\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\xuezh\OneDrive\桌面\webservice assignment\FruitCalculator2\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\xuezh\OneDrive\桌面\webservice assignment\FruitCalculator2\obj\Debug\net6.0\scopedcss\bundle\FruitCalculator2RestAPI.styles.css
+C:\Users\xuezh\OneDrive\桌面\webservice assignment\FruitCalculator2\obj\Debug\net6.0\FruitCalculator2RestAPI.csproj.CopyComplete
+C:\Users\xuezh\OneDrive\桌面\webservice assignment\FruitCalculator2\obj\Debug\net6.0\FruitCalculator2RestAPI.dll
+C:\Users\xuezh\OneDrive\桌面\webservice assignment\FruitCalculator2\obj\Debug\net6.0\refint\FruitCalculator2RestAPI.dll
+C:\Users\xuezh\OneDrive\桌面\webservice assignment\FruitCalculator2\obj\Debug\net6.0\FruitCalculator2RestAPI.pdb
+C:\Users\xuezh\OneDrive\桌面\webservice assignment\FruitCalculator2\obj\Debug\net6.0\FruitCalculator2RestAPI.genruntimeconfig.cache
+C:\Users\xuezh\OneDrive\桌面\webservice assignment\FruitCalculator2\obj\Debug\net6.0\ref\FruitCalculator2RestAPI.dll
+C:\Users\xuezh\OneDrive\桌面\webservice assignment\FruitCalculator2\bin\Debug\net6.0\Npgsql.dll
+C:\Users\xuezh\OneDrive\桌面\appDevAssig2\FruitCalculator2\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\xuezh\OneDrive\桌面\appDevAssig2\FruitCalculator2\bin\Debug\net6.0\appsettings.json
+C:\Users\xuezh\OneDrive\桌面\appDevAssig2\FruitCalculator2\bin\Debug\net6.0\FruitCalculator2RestAPI.exe
+C:\Users\xuezh\OneDrive\桌面\appDevAssig2\FruitCalculator2\bin\Debug\net6.0\FruitCalculator2RestAPI.deps.json
+C:\Users\xuezh\OneDrive\桌面\appDevAssig2\FruitCalculator2\bin\Debug\net6.0\FruitCalculator2RestAPI.runtimeconfig.json
+C:\Users\xuezh\OneDrive\桌面\appDevAssig2\FruitCalculator2\bin\Debug\net6.0\FruitCalculator2RestAPI.dll
+C:\Users\xuezh\OneDrive\桌面\appDevAssig2\FruitCalculator2\bin\Debug\net6.0\FruitCalculator2RestAPI.pdb
+C:\Users\xuezh\OneDrive\桌面\appDevAssig2\FruitCalculator2\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\xuezh\OneDrive\桌面\appDevAssig2\FruitCalculator2\bin\Debug\net6.0\Npgsql.dll
+C:\Users\xuezh\OneDrive\桌面\appDevAssig2\FruitCalculator2\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\xuezh\OneDrive\桌面\appDevAssig2\FruitCalculator2\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\xuezh\OneDrive\桌面\appDevAssig2\FruitCalculator2\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\xuezh\OneDrive\桌面\appDevAssig2\FruitCalculator2\obj\Debug\net6.0\FruitCalculator2RestAPI.csproj.AssemblyReference.cache
+C:\Users\xuezh\OneDrive\桌面\appDevAssig2\FruitCalculator2\obj\Debug\net6.0\FruitCalculator2RestAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\xuezh\OneDrive\桌面\appDevAssig2\FruitCalculator2\obj\Debug\net6.0\FruitCalculator2RestAPI.AssemblyInfoInputs.cache
+C:\Users\xuezh\OneDrive\桌面\appDevAssig2\FruitCalculator2\obj\Debug\net6.0\FruitCalculator2RestAPI.AssemblyInfo.cs
+C:\Users\xuezh\OneDrive\桌面\appDevAssig2\FruitCalculator2\obj\Debug\net6.0\FruitCalculator2RestAPI.csproj.CoreCompileInputs.cache
+C:\Users\xuezh\OneDrive\桌面\appDevAssig2\FruitCalculator2\obj\Debug\net6.0\FruitCalculator2RestAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\xuezh\OneDrive\桌面\appDevAssig2\FruitCalculator2\obj\Debug\net6.0\FruitCalculator2RestAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\xuezh\OneDrive\桌面\appDevAssig2\FruitCalculator2\obj\Debug\net6.0\staticwebassets\msbuild.FruitCalculator2RestAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\xuezh\OneDrive\桌面\appDevAssig2\FruitCalculator2\obj\Debug\net6.0\staticwebassets\msbuild.build.FruitCalculator2RestAPI.props
+C:\Users\xuezh\OneDrive\桌面\appDevAssig2\FruitCalculator2\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.FruitCalculator2RestAPI.props
+C:\Users\xuezh\OneDrive\桌面\appDevAssig2\FruitCalculator2\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.FruitCalculator2RestAPI.props
+C:\Users\xuezh\OneDrive\桌面\appDevAssig2\FruitCalculator2\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\xuezh\OneDrive\桌面\appDevAssig2\FruitCalculator2\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\xuezh\OneDrive\桌面\appDevAssig2\FruitCalculator2\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\xuezh\OneDrive\桌面\appDevAssig2\FruitCalculator2\obj\Debug\net6.0\scopedcss\bundle\FruitCalculator2RestAPI.styles.css
+C:\Users\xuezh\OneDrive\桌面\appDevAssig2\FruitCalculator2\obj\Debug\net6.0\FruitCalculator2RestAPI.csproj.CopyComplete
+C:\Users\xuezh\OneDrive\桌面\appDevAssig2\FruitCalculator2\obj\Debug\net6.0\FruitCalculator2RestAPI.dll
+C:\Users\xuezh\OneDrive\桌面\appDevAssig2\FruitCalculator2\obj\Debug\net6.0\refint\FruitCalculator2RestAPI.dll
+C:\Users\xuezh\OneDrive\桌面\appDevAssig2\FruitCalculator2\obj\Debug\net6.0\FruitCalculator2RestAPI.pdb
+C:\Users\xuezh\OneDrive\桌面\appDevAssig2\FruitCalculator2\obj\Debug\net6.0\FruitCalculator2RestAPI.genruntimeconfig.cache
+C:\Users\xuezh\OneDrive\桌面\appDevAssig2\FruitCalculator2\obj\Debug\net6.0\ref\FruitCalculator2RestAPI.dll
