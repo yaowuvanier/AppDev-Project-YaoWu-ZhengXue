@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NsuAFp+0sU/6PEvGDIbi21XnchOec58pgrUj0v/TClqxGmPq9yipZFOnvjKdMs3bH9w6W7lxG2n0lErueMKWLQ==",
+  "dgSpecHash": "53hmuNxseoE6ZZf8g8Y62LoNJNG/k6vgnehpxnwtzQ7q5nlH42lN9cFRcrzNz2jGOH1XpAWJ1z4CfJ9r9ADokg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\xuezh\\OneDrive\\桌面\\appDevAssig2\\FruitCalculator2\\FruitCalculator2RestAPI.csproj",
+  "projectFilePath": "C:\\Users\\xuezh\\OneDrive\\桌面\\AppDevProject\\AppDev-Project-YaoWu-ZhengXue\\appDevAssignment2\\FruitCalculator2\\FruitCalculator2RestAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\xuezh\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\xuezh\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",

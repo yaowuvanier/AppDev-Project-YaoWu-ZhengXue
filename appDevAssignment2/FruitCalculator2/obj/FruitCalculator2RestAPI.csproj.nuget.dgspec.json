@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\xuezh\\OneDrive\\桌面\\appDevAssig2\\FruitCalculator2\\FruitCalculator2RestAPI.csproj": {}
+    "C:\\Users\\xuezh\\OneDrive\\桌面\\AppDevProject\\AppDev-Project-YaoWu-ZhengXue\\appDevAssignment2\\FruitCalculator2\\FruitCalculator2RestAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\xuezh\\OneDrive\\桌面\\appDevAssig2\\FruitCalculator2\\FruitCalculator2RestAPI.csproj": {
+    "C:\\Users\\xuezh\\OneDrive\\桌面\\AppDevProject\\AppDev-Project-YaoWu-ZhengXue\\appDevAssignment2\\FruitCalculator2\\FruitCalculator2RestAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\xuezh\\OneDrive\\桌面\\appDevAssig2\\FruitCalculator2\\FruitCalculator2RestAPI.csproj",
+        "projectUniqueName": "C:\\Users\\xuezh\\OneDrive\\桌面\\AppDevProject\\AppDev-Project-YaoWu-ZhengXue\\appDevAssignment2\\FruitCalculator2\\FruitCalculator2RestAPI.csproj",
         "projectName": "FruitCalculator2RestAPI",
-        "projectPath": "C:\\Users\\xuezh\\OneDrive\\桌面\\appDevAssig2\\FruitCalculator2\\FruitCalculator2RestAPI.csproj",
+        "projectPath": "C:\\Users\\xuezh\\OneDrive\\桌面\\AppDevProject\\AppDev-Project-YaoWu-ZhengXue\\appDevAssignment2\\FruitCalculator2\\FruitCalculator2RestAPI.csproj",
         "packagesPath": "C:\\Users\\xuezh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\xuezh\\OneDrive\\桌面\\appDevAssig2\\FruitCalculator2\\obj\\",
+        "outputPath": "C:\\Users\\xuezh\\OneDrive\\桌面\\AppDevProject\\AppDev-Project-YaoWu-ZhengXue\\appDevAssignment2\\FruitCalculator2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\xuezh\\AppData\\Roaming\\NuGet\\NuGet.Config",
