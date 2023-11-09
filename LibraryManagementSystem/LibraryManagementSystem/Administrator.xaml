@@ -11,9 +11,9 @@
         <Label Content="Employee ID" HorizontalAlignment="Left" Margin="80,158,0,0" VerticalAlignment="Top"/>
         <Label Content="Gender" HorizontalAlignment="Left" Margin="82,206,0,0" VerticalAlignment="Top"/>
         <GroupBox Header="Administrator" HorizontalAlignment="Left" Height="191" Margin="56,76,0,0" VerticalAlignment="Top" Width="532"/>
-        <Button Content="Book Management" HorizontalAlignment="Left" Margin="90,326,0,0" VerticalAlignment="Top" Width="74" Click="Button_Click"/>
-        <Button Content="Reader Management" HorizontalAlignment="Left" Margin="224,326,0,0" VerticalAlignment="Top" Width="76" Click="Button_Click_1"/>
-        <Button Content="Log out" HorizontalAlignment="Left" Margin="464,326,0,0" VerticalAlignment="Top" Width="76" Click="Button_Click_2"/>
+        <Button Content="Book Management" HorizontalAlignment="Left" Margin="90,326,0,0" VerticalAlignment="Top" Width="90" Click="Button_Click"/>
+        <Button Content="Reader Management" HorizontalAlignment="Left" Margin="224,326,0,0" VerticalAlignment="Top" Width="90" Click="Button_Click_ReaderManage"/>
+        <Button Content="Log out" HorizontalAlignment="Left" Margin="490,326,0,0" VerticalAlignment="Top" Width="76" Click="Button_Click_Logout"/>
         <TextBox x:Name="name" HorizontalAlignment="Left" Height="24" Margin="160,113,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="id" IsEnabled="False" HorizontalAlignment="Left" Height="22" Margin="160,161,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
         <Label Content="Age" HorizontalAlignment="Left" Margin="332,112,0,0" VerticalAlignment="Top"/>
@@ -22,7 +22,7 @@
         <TextBox x:Name="age" HorizontalAlignment="Left" Height="24" Margin="386,113,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="175"/>
         <TextBox x:Name="phone" HorizontalAlignment="Left" Height="22" Margin="386,161,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="175"/>
         <PasswordBox x:Name="password" HorizontalAlignment="Left" Height="24" Margin="386,207,0,0" VerticalAlignment="Top" Width="175"/>
-        <Button Content="Modify information" HorizontalAlignment="Left" Margin="350,326,0,0" VerticalAlignment="Top" Width="76" Click="Button_Click_3"/>
+        <Button Content="Modify information" HorizontalAlignment="Left" Margin="350,326,0,0" VerticalAlignment="Top" Width="90" Click="Button_Click_ModifyAdmin"/>
         <GroupBox Header="Administrator Operation" HorizontalAlignment="Left" Height="74" Margin="56,296,0,0" VerticalAlignment="Top" Width="532"/>
         <Label Content="Welcome Administrator" HorizontalAlignment="Left" Margin="256,18,0,0" VerticalAlignment="Top" FontSize="20"/>
         <CheckBox x:Name="boy" Content="Male" HorizontalAlignment="Left" Margin="155,212,0,0" VerticalAlignment="Top" Checked="boy_Checked"/>

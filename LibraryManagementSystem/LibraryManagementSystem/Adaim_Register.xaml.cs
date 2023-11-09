@@ -16,8 +16,6 @@ namespace LibraryManagementSystem
             InitializeComponent();
 
         }
-   
-
         private void Button_Click(object sender, RoutedEventArgs e)  //register
         {
             if (id.Text.Equals(""))

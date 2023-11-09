@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\FruitCalculator2RestAPI.props" />
+</Project>

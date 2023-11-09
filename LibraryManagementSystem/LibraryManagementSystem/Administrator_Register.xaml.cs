@@ -31,9 +31,7 @@ namespace LibraryManagementSystem
                 MessageBox.Show("login failed");
 
             }
-
-
-         
+        
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)  // register

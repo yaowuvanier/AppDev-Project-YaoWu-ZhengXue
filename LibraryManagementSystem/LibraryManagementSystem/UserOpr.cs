@@ -118,10 +118,12 @@ namespace LibraryManagementSystem
         public bool UserLogin()
         {
             bool flag = false;
+            npgsqlConnection = new NpgsqlConnection(conString);
             try
             {
+                
                 npgsqlConnection.Open();
-                string sql = "SELECT reader_name, sex, telephone, email FROM reader WHERE reader_id=@id AND password=@password";
+                string sql = "SELECT username, phonenumber, email FROM reader WHERE id=@id AND password=@password";
 
                 using (var cmd = new NpgsqlCommand(sql, npgsqlConnection))
                 {
@@ -141,10 +143,28 @@ namespace LibraryManagementSystem
                     }
                 }
             }
-            catch
+            catch (Exception ex)
             {
                 // Handle exceptions
+                Console.WriteLine("An error occurred: " + ex.Message);
+
+                // You can also log the exception details to a log file or other means.
+                // For example, if you have a logging library like log4net, you can use it to log the exception.
+                // log.Error("An error occurred in UserLogin method: " + ex.ToString());
+
+                // You can re-throw the exception if you want it to be caught further up the call stack.
+                // throw;
+
+                // Depending on your application and security considerations, you might want to handle different exceptions differently.
+                // For example, you can catch specific exceptions, like NpgsqlException, to handle database-related errors separately.
+                // catch (NpgsqlException dbException)
+                // {
+                //     Console.WriteLine("Database error: " + dbException.Message);
+                // }
+
+                // Handle the exception based on the specific error or re-throw it if necessary.
             }
+
             finally
             {
                 npgsqlConnection.Close();

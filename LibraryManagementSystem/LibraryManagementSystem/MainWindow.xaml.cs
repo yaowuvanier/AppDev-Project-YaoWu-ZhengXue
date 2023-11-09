@@ -12,7 +12,7 @@ namespace LibraryManagementSystem
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)  // student login endpoint
+        private void Button_Click_ReaderLogin(object sender, RoutedEventArgs e)  // student login endpoint
         {
             Student_Register student_Register = new Student_Register();
             Application.Current.MainWindow = student_Register;
@@ -20,7 +20,7 @@ namespace LibraryManagementSystem
             student_Register.Show();
         }
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)   // administrator login endpoint
+        private void Button_Click_adminLogin(object sender, RoutedEventArgs e)   // administrator login endpoint
         {
             Administrator_Register administrator_Register = new Administrator_Register();
             Application.Current.MainWindow = administrator_Register;
@@ -28,7 +28,7 @@ namespace LibraryManagementSystem
             administrator_Register.Show();
         }
 
-        private void Button_Click_2(object sender, RoutedEventArgs e)  // exit
+        private void Button_Click_logout(object sender, RoutedEventArgs e)  // exit
         {
             Application.Current.Shutdown();
         }

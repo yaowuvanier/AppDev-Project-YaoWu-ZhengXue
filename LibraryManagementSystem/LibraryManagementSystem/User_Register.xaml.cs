@@ -41,6 +41,20 @@ namespace LibraryManagementSystem
 
         public void Insert() //register
         {
+            string accountId;
+
+            do
+            {
+                accountId = id.Text; // Get the value from the TextBox
+
+                if (string.IsNullOrEmpty(accountId))
+                {
+                    MessageBox.Show("Account ID cannot be empty.");
+                    // Optionally prompt the user to enter a value again.
+                }
+            }
+            while (string.IsNullOrEmpty(accountId));
+
             if (user.SameUser(id.Text))
             {
                 if (!password.Text.Equals(password1.Text))

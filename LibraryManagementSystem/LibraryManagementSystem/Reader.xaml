@@ -7,13 +7,13 @@
         mc:Ignorable="d"
         Title="" Height="430" Width="650">
     <Grid>
-        <Button Content="Book Lending" HorizontalAlignment="Left" Margin="222,288,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
-        <Button Content="Book Return" HorizontalAlignment="Left" Margin="111,288,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
+        <Button Content="Book Lending" HorizontalAlignment="Left" Margin="222,288,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_bookLend"/>
+        <Button Content="Book Return" HorizontalAlignment="Left" Margin="111,288,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_bookReturn"/>
         <Label Content="Welcome to the library" HorizontalAlignment="Left" Margin="190,24,0,0" VerticalAlignment="Top" Width="220" FontSize="20"/>
         <Label Content="Name：" HorizontalAlignment="Left" Margin="87,110,0,0" VerticalAlignment="Top"/>
         <Label Content="Account Id：" HorizontalAlignment="Left" Margin="87,155,0,0" VerticalAlignment="Top"/>
         <GroupBox Header="User Information" HorizontalAlignment="Left" Height="165" Margin="61,80,0,0" VerticalAlignment="Top" Width="515" />
-        <Button Content="Log out" HorizontalAlignment="Left" Margin="462,288,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_2"/>
+        <Button Content="Log   out" HorizontalAlignment="Left" Margin="462,288,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_logout"/>
         <TextBox x:Name="name" HorizontalAlignment="Left" Height="23" Margin="138,112,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="id" HorizontalAlignment="Left" Height="23" Margin="138,157,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" IsEnabled="False" />
         <Label Content="Password:" HorizontalAlignment="Left" Margin="312,201,0,0" VerticalAlignment="Top"/>
@@ -21,7 +21,7 @@
         <Label Content="Email:" HorizontalAlignment="Left" Margin="312,155,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="phone" HorizontalAlignment="Left" Height="23" Margin="362,112,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="175"/>
         <TextBox x:Name="email" HorizontalAlignment="Left" Height="23" Margin="362,157,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="175"/>
-        <Button Content="Modify information" HorizontalAlignment="Left" Margin="342,288,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_3"/>
+        <Button Content="Modify information" HorizontalAlignment="Left" Margin="342,288,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_modifyInfo"/>
         <GroupBox Header="User Operation" Margin="61,250,0,0" Height="90" VerticalAlignment="Top" HorizontalAlignment="Left" Width="515"/>
         <PasswordBox x:Name="password" HorizontalAlignment="Left" Margin="362,203,0,0" VerticalAlignment="Top" Width="175" Height="23"/>
 

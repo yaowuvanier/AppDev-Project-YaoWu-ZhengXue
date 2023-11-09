@@ -30,9 +30,9 @@
                 </GridView>
             </ListView.View>
         </ListView>
-        <Button x:Name="button1" Content="Renew" HorizontalAlignment="Left" Margin="737,69,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1" IsEnabled="False"/>
-        <Button Content="Return" HorizontalAlignment="Left" Margin="737,259,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
-        <Button x:Name="button2" Content="Return" HorizontalAlignment="Left" Margin="737,166,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_2" IsEnabled="False"/>
+        <Button x:Name="button_renew" Content="Renew" HorizontalAlignment="Left" Margin="737,69,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_Renew" IsEnabled="False"/>
+        <Button Content="Return" HorizontalAlignment="Left" Margin="737,259,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_Back"/>
+        <Button x:Name="button2" Content="Return" HorizontalAlignment="Left" Margin="737,166,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_Return" IsEnabled="False"/>
         <GroupBox Header="User has borrowed books" HorizontalAlignment="Left" Height="296" Margin="10,10,0,0" VerticalAlignment="Top" Width="702"/>
         <GroupBox Header="User Operation" HorizontalAlignment="Left" Height="296" Margin="717,10,0,0" VerticalAlignment="Top" Width="115"/>
 

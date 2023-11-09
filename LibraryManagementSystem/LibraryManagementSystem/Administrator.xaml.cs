@@ -1,5 +1,6 @@
 ﻿
 using System;
+using System.Diagnostics;
 using System.Windows;
 using Npgsql;
 
@@ -37,8 +38,6 @@ namespace LibraryManagementSystem
 
         }
 
-
-
         private void Button_Click(object sender, RoutedEventArgs e)//book management
         {
             Admain_Opr_Books admain_Opr_Books = new Admain_Opr_Books();
@@ -46,13 +45,22 @@ namespace LibraryManagementSystem
             admain_Opr_Books.Show();
         }
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)  // reader management
+        private void Button_Click_ReaderManage(object sender, RoutedEventArgs e)  // reader management
         {
-            Admin_Opr_Reader admin_Opr_Reader = new Admin_Opr_Reader(adminOpr);
-            Application.Current.MainWindow = admin_Opr_Reader;
-            admin_Opr_Reader.Show();
+
+            try
+            {
+                Admin_Opr_Reader admin_Opr_Reader = new Admin_Opr_Reader(adminOpr);
+                Application.Current.MainWindow = admin_Opr_Reader;
+                admin_Opr_Reader.Show();
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine("Exception: " + ex.ToString());
+                MessageBox.Show("An error occurred: " + ex.Message);
+            }
         }
-        private void Button_Click_2(object sender, RoutedEventArgs e)  //return to mainwindow (login page)
+        private void Button_Click_Logout(object sender, RoutedEventArgs e)  //return to mainwindow (login page)
         {
             MainWindow mainWindow = new MainWindow();
             Application.Current.MainWindow = mainWindow;
@@ -60,7 +68,7 @@ namespace LibraryManagementSystem
             mainWindow.Show();
         }
 
-        private void Button_Click_3(object sender, RoutedEventArgs e)   //modify admin information
+        private void Button_Click_ModifyAdmin(object sender, RoutedEventArgs e)   //modify admin information
         {
             using (NpgsqlConnection npgsqlConnection = new NpgsqlConnection(conString))
             {
@@ -74,7 +82,8 @@ namespace LibraryManagementSystem
 
                         npgsqlCommand.CommandText = cmdStr;
                         npgsqlCommand.Parameters.AddWithValue("@name", name.Text);
-                        npgsqlCommand.Parameters.AddWithValue("@age", age.Text);
+                        int ageValue = int.Parse(age.Text);
+                        npgsqlCommand.Parameters.AddWithValue("@age", ageValue);
                         npgsqlCommand.Parameters.AddWithValue("@sex", adminOpr.Sex);
                         npgsqlCommand.Parameters.AddWithValue("@phone", phone.Text);
                         npgsqlCommand.Parameters.AddWithValue("@password", password.Password);

@@ -86,7 +86,7 @@ namespace LibraryManagementSystem
                         {
                             flag = true;
                             adminName = reader["manager_name"].ToString();
-                            age = (int)reader["age"];  //Convert.ToInt32(reader["age"]);  
+                            age = (int)reader["age"]; //type convert still has some problems  //Convert.ToInt32(reader["age"]);  
                             phone = reader["telephone"].ToString();
                             sex = reader["sex"].ToString();
                         }

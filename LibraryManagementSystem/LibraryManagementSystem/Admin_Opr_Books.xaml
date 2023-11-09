@@ -28,7 +28,7 @@
         <Button Content="Add" HorizontalAlignment="Left" Margin="529,330,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_3"/>
         <Button x:Name="button1" Content="Edit" HorizontalAlignment="Left" Margin="633,330,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1" IsEnabled="False"/>
         <Button Content="Return" HorizontalAlignment="Left" Margin="633,360,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
-        <Button x:Name="button2" Content="Edit" HorizontalAlignment="Left" Margin="529,361,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_4" IsEnabled="False"/>
+        <Button x:Name="button2" Content="Delete" HorizontalAlignment="Left" Margin="529,361,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_4" IsEnabled="False"/>
         <GroupBox Header="Query Operation" HorizontalAlignment="Left" Height="84" Margin="23,307,0,0" VerticalAlignment="Top" Width="365"/>
         <GroupBox Header="Management Operations" HorizontalAlignment="Left" Height="84" Margin="466,307,0,0" VerticalAlignment="Top" Width="301"/>
         <GroupBox Header="Book Information" HorizontalAlignment="Left" Height="292" Margin="23,10,0,0" VerticalAlignment="Top" Width="744"/>

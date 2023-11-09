@@ -10,16 +10,12 @@ namespace LibraryManagementSystem
     public partial class Student_Return : Window
     {
         User user;
+        int bookId; // Add a bookId field
         const string conString = "Host=localhost; Port=5432; Username=postgres; Password=125521; Database=vanierAEC2023fall;  SearchPath=assignment";
         NpgsqlConnection npgsqlConnection;
 
         List<ReturnUtil> ltCus;
         ReturnUtil util;
-
-        public Student_Return()
-        {
-            InitializeComponent();
-        }
 
         public Student_Return(User user)
         {
@@ -27,42 +23,157 @@ namespace LibraryManagementSystem
             InitializeComponent();
             npgsqlConnection = new NpgsqlConnection(conString);
             ltCus = new List<ReturnUtil>();
-
             Update();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        public Student_Return(User user, int bookId) // Pass bookId to the constructor
+        {
+            this.user = user;
+            this.bookId = bookId;
+            InitializeComponent();
+            npgsqlConnection = new NpgsqlConnection(conString);
+            ltCus = new List<ReturnUtil>();
+            Update();
+        }
+
+        private void Button_Click_Back(object sender, RoutedEventArgs e)
         {
             this.Close();
         }
 
         public void Update()
         {
-           
+            DataTable dt = new DataTable("table1");
+
+            try
+            {
+                npgsqlConnection.Open();
+                string cmdStr = "SELECT * FROM BorrowReturnRecord WHERE User_Id = @userId::int AND Book_Id = @bookId::int"; 
+                using (NpgsqlCommand npgsqlCommand = new NpgsqlCommand(cmdStr, npgsqlConnection))
+                {
+                    npgsqlCommand.Parameters.AddWithValue("@userId", user.Id);
+                    npgsqlCommand.Parameters.AddWithValue("@bookId", bookId);
+                    using (NpgsqlDataAdapter adapter = new NpgsqlDataAdapter(npgsqlCommand))
+                    {
+                        adapter.Fill(dt);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+            finally
+            {
+                npgsqlConnection.Close();
+            }
+
+            ltCus.Clear();
+            foreach (DataRow dataRow in dt.Rows)
+            {
+                ReturnUtil returnUtil = new ReturnUtil
+                {
+                    Id = dataRow["BOOK_ID"].ToString(),
+                    Name = dataRow["BOOK_NAME"].ToString(),
+                    BorrowTime = dataRow["BORROW_TIME"].ToString(),
+                    Count = ltCus.Count + 1,
+                    ReturnTime = dataRow["RETURN_TIME"].ToString()
+                };
+                ltCus.Add(returnUtil);
+            }
+
+            listView.ItemsSource = ltCus;
         }
 
         private void listView_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-  
+            button_renew.IsEnabled = true;
+            button2.IsEnabled = true;
+            util = (ReturnUtil)listView.SelectedItem;
         }
 
-        private void Button_Click_1(object sender, RoutedEventArgs e) // renew
+        private void Button_Click_Renew(object sender, RoutedEventArgs e) // renewal
         {
-          
-        }
+            int result = 0;
 
-        private void Button_Click_2(object sender, RoutedEventArgs e) // return
+            try
+            {
+                npgsqlConnection.Open();
+                string[] str = util.BorrowTime.Split(' ');
+                string cmdStr = "UPDATE borrow_info SET return_time = return_time + INTERVAL '20 days' WHERE READER_ID = @readerId AND BOOK_ID = @bookId AND BORROW_TIME = @borrowTime";
+                using (NpgsqlCommand npgsqlCommand = new NpgsqlCommand(cmdStr, npgsqlConnection))
+                {
+                    npgsqlCommand.Parameters.AddWithValue("@readerId", user.Id);
+                    npgsqlCommand.Parameters.AddWithValue("@bookId", bookId); // Include BOOK_ID
+                    npgsqlCommand.Parameters.AddWithValue("@borrowTime", DateTime.Parse(str[0]));
+                    result = npgsqlCommand.ExecuteNonQuery();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Return failed: " + ex.ToString());
+            }
+            finally
+            {
+                npgsqlConnection.Close();
+            }
+
+            listView.ItemsSource = null;
+            Update();
+
+            if (result == 1)
+            {
+                MessageBox.Show("Return successful!");
+            }
+
+            button_renew.IsEnabled = false;
+            button2.IsEnabled = false;
+        }
+        private void Button_Click_Return(object sender, RoutedEventArgs e) // return
         {
-           
-        }
-    }
+            int result = 0;
 
-    class ReturnUtil
-    {
-        public int Count { get; set; }
-        public string Id { get; set; }
-        public string Name { get; set; }
-        public string BorrowTime { get; set; }
-        public string ReturnTime { get; set; }
+            try
+            {
+                npgsqlConnection.Open();
+                string[] str = util.BorrowTime.Split(' ');
+                string cmdStr = "UPDATE BorrowReturnRecord SET Return_Date = @returnDate WHERE User_Id = @userId AND Book_Id = @bookId";
+                using (NpgsqlCommand npgsqlCommand = new NpgsqlCommand(cmdStr, npgsqlConnection))
+                {
+                    npgsqlCommand.Parameters.AddWithValue("@userId", user.Id);
+                    npgsqlCommand.Parameters.AddWithValue("@bookId", util.Id);
+                    npgsqlCommand.Parameters.AddWithValue("@returnDate", DateTime.Now);
+                    result = npgsqlCommand.ExecuteNonQuery();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Return failed: " + ex.ToString());
+            }
+            finally
+            {
+                npgsqlConnection.Close();
+            }
+
+            listView.ItemsSource = null;
+            Update();
+
+            if (result == 1)
+            {
+                MessageBox.Show("Return successful!");
+            }
+
+            button_renew.IsEnabled = false;
+            button2.IsEnabled = false;
+        }
+
+        class ReturnUtil
+        {
+            public int Count { get; set; }
+            public string Id { get; set; }
+            public string Name { get; set; }
+            public string BorrowTime { get; set; }
+            public string ReturnTime { get; set; }
+        }
     }
 }
