@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "KFKt6RtpTAEfiH1AHsUodZ0RRY85zPRrtb21Ej4uZ8M=",
+  "Source": "ReaderBorrowRestAPI",
+  "BasePath": "_content/ReaderBorrowRestAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
