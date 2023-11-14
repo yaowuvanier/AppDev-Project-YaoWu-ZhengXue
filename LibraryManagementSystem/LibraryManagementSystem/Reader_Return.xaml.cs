@@ -48,11 +48,12 @@ namespace LibraryManagementSystem
             try
             {
                 npgsqlConnection.Open();
-                string cmdStr = "SELECT * FROM BorrowReturnRecord WHERE User_Id = @userId::int AND Book_Id = @bookId::int"; 
+
+                string cmdStr = "SELECT * FROM BorrowReturnRecord WHERE User_Id = @userId::int ";  //AND Book_Id = @bookId::int
                 using (NpgsqlCommand npgsqlCommand = new NpgsqlCommand(cmdStr, npgsqlConnection))
                 {
                     npgsqlCommand.Parameters.AddWithValue("@userId", user.Id);
-                    npgsqlCommand.Parameters.AddWithValue("@bookId", bookId);
+                   // npgsqlCommand.Parameters.AddWithValue("@bookId", bookId);
                     using (NpgsqlDataAdapter adapter = new NpgsqlDataAdapter(npgsqlCommand))
                     {
                         adapter.Fill(dt);
@@ -75,9 +76,9 @@ namespace LibraryManagementSystem
                 {
                     Id = dataRow["BOOK_ID"].ToString(),
                     Name = dataRow["BOOK_NAME"].ToString(),
-                    BorrowTime = dataRow["BORROW_TIME"].ToString(),
+                    BorrowTime = dataRow["BORROW_DATE"].ToString(),
                     Count = ltCus.Count + 1,
-                    ReturnTime = dataRow["RETURN_TIME"].ToString()
+                    ReturnTime = dataRow["RETURN_DATE"].ToString()
                 };
                 ltCus.Add(returnUtil);
             }
@@ -88,7 +89,7 @@ namespace LibraryManagementSystem
         private void listView_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             button_renew.IsEnabled = true;
-            button2.IsEnabled = true;
+            button_return.IsEnabled = true;
             util = (ReturnUtil)listView.SelectedItem;
         }
 
@@ -100,12 +101,14 @@ namespace LibraryManagementSystem
             {
                 npgsqlConnection.Open();
                 string[] str = util.BorrowTime.Split(' ');
-                string cmdStr = "UPDATE borrow_info SET return_time = return_time + INTERVAL '20 days' WHERE READER_ID = @readerId AND BOOK_ID = @bookId AND BORROW_TIME = @borrowTime";
+                string cmdStr = "UPDATE BorrowReturnRecord SET borrow_date=@borrowTime ,return_date = @retunTime  WHERE user_id = @readerId AND bookId = @bookId "; //AND BORROW_TIME = @borrowTime
                 using (NpgsqlCommand npgsqlCommand = new NpgsqlCommand(cmdStr, npgsqlConnection))
                 {
+                    //
                     npgsqlCommand.Parameters.AddWithValue("@readerId", user.Id);
                     npgsqlCommand.Parameters.AddWithValue("@bookId", bookId); // Include BOOK_ID
-                    npgsqlCommand.Parameters.AddWithValue("@borrowTime", DateTime.Parse(str[0]));
+                    npgsqlCommand.Parameters.AddWithValue("@borrowTime", DateTime.Now );
+                    npgsqlCommand.Parameters.AddWithValue("@retunTime", null);
                     result = npgsqlCommand.ExecuteNonQuery();
                 }
             }
@@ -127,7 +130,7 @@ namespace LibraryManagementSystem
             }
 
             button_renew.IsEnabled = false;
-            button2.IsEnabled = false;
+            button_return.IsEnabled = false;
         }
         private void Button_Click_Return(object sender, RoutedEventArgs e) // return
         {
@@ -140,8 +143,9 @@ namespace LibraryManagementSystem
                 string cmdStr = "UPDATE BorrowReturnRecord SET Return_Date = @returnDate WHERE User_Id = @userId AND Book_Id = @bookId";
                 using (NpgsqlCommand npgsqlCommand = new NpgsqlCommand(cmdStr, npgsqlConnection))
                 {
-                    npgsqlCommand.Parameters.AddWithValue("@userId", user.Id);
-                    npgsqlCommand.Parameters.AddWithValue("@bookId", util.Id);
+                    //npgsqlCommand.Parameters.AddWithValue("@borrowDate", user.BorrowTime);
+                    npgsqlCommand.Parameters.AddWithValue("@userId",int.Parse(user.Id) );
+                    npgsqlCommand.Parameters.AddWithValue("@bookId", int.Parse(util.Id));
                     npgsqlCommand.Parameters.AddWithValue("@returnDate", DateTime.Now);
                     result = npgsqlCommand.ExecuteNonQuery();
                 }
@@ -164,7 +168,7 @@ namespace LibraryManagementSystem
             }
 
             button_renew.IsEnabled = false;
-            button2.IsEnabled = false;
+            button_return.IsEnabled = false;
         }
 
         class ReturnUtil

@@ -175,5 +175,10 @@ namespace LibraryManagementSystem
             }
             return query;
         }
+
+        public int userAdd1(int a)
+        {
+            return a + 1;
+        }
     }
 }

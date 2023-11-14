@@ -30,7 +30,7 @@ namespace LibraryManagementSystem
 
         }
 
-        private void Button_Click_bookLend(object sender, RoutedEventArgs e)  // borrow
+        private void Button_Click_BorrowBook(object sender, RoutedEventArgs e)  // borrow
         {
             Student_Borrow student_Borrow = new Student_Borrow(user);
             Application.Current.MainWindow = student_Borrow;
@@ -64,11 +64,12 @@ namespace LibraryManagementSystem
                     npgsqlConnection.Open();
                     using (NpgsqlCommand npgsqlCommand = npgsqlConnection.CreateCommand())
                     {
-                        string cmdStr = "UPDATE reader SET username = @name,  phonenumber = @phone, password = @password WHERE id = @id";
+                        string cmdStr = "UPDATE reader SET username = @name, email=@email ,phonenumber = @phone, password = @password WHERE id = @id";
 
                         npgsqlCommand.CommandText = cmdStr;
                         npgsqlCommand.Parameters.AddWithValue("@name", name.Text);
                         npgsqlCommand.Parameters.AddWithValue("@phone", phone.Text);
+                        npgsqlCommand.Parameters.AddWithValue("@email", email.Text);
                         npgsqlCommand.Parameters.AddWithValue("@password", password.Password);
                         npgsqlCommand.Parameters.AddWithValue("@id", id.Text);
 

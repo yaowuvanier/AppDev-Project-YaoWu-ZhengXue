@@ -201,7 +201,7 @@ namespace LibraryManagementSystem
             {
                 npgsqlConnection.Open();
 
-                string sql = @"INSERT INTO assignment.reader (reader_name, reader_id, telephone, email, password)
+                string sql = @"INSERT INTO assignment.reader (username, id, phonenumber, email, password)
                               VALUES (@userName, @id, @phoneNumber, @email, @password)";
 
                 using (var cmd = new NpgsqlCommand(sql, npgsqlConnection))
@@ -235,7 +235,7 @@ namespace LibraryManagementSystem
 
             npgsqlConnection.Open();
 
-            string sql = @"UPDATE reader SET reader_name=@userName, password=@password, email=@email, phoneNumber=@phoneNumber WHERE reader_id=@id";
+            string sql = @"UPDATE reader SET username=@userName, password=@password, email=@email, phoneNumber=@phoneNumber WHERE id=@id";
 
             int result = 0;
 

@@ -18,6 +18,7 @@ namespace LibraryManagementSystem
             users = new Users();
             flag = true;
             InitializeComponent();
+          
         }
 
         public User_register(Users users)

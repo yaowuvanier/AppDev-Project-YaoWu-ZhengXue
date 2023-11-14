@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="" Height="430" Width="650">
     <Grid>
-        <Button Content="Book Lending" HorizontalAlignment="Left" Margin="222,288,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_bookLend"/>
+        <Button Content="Book Borrowing" HorizontalAlignment="Left" Margin="222,288,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_BorrowBook"/>
         <Button Content="Book Return" HorizontalAlignment="Left" Margin="111,288,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_bookReturn"/>
         <Label Content="Welcome to the library" HorizontalAlignment="Left" Margin="190,24,0,0" VerticalAlignment="Top" Width="220" FontSize="20"/>
         <Label Content="Name：" HorizontalAlignment="Left" Margin="87,110,0,0" VerticalAlignment="Top"/>

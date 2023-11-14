@@ -114,6 +114,8 @@ C:\D\Mtl Living\College learning\Vanier\Software Development\AppDev (DESKTOP)\Pr
 C:\D\Mtl Living\College learning\Vanier\Software Development\AppDev (DESKTOP)\Project\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
 C:\D\Mtl Living\College learning\Vanier\Software Development\AppDev (DESKTOP)\Project\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\Npgsql.dll
 C:\D\Mtl Living\College learning\Vanier\Software Development\AppDev (DESKTOP)\Project\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\D\Mtl Living\College learning\Vanier\Software Development\AppDev (DESKTOP)\Project\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\PresentationCore.dll
+C:\D\Mtl Living\College learning\Vanier\Software Development\AppDev (DESKTOP)\Project\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\PresentationFramework.dll
 C:\D\Mtl Living\College learning\Vanier\Software Development\AppDev (DESKTOP)\Project\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\System.Buffers.dll
 C:\D\Mtl Living\College learning\Vanier\Software Development\AppDev (DESKTOP)\Project\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\System.Collections.Immutable.dll
 C:\D\Mtl Living\College learning\Vanier\Software Development\AppDev (DESKTOP)\Project\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\System.Diagnostics.DiagnosticSource.dll
@@ -175,3 +177,73 @@ C:\D\Mtl Living\College learning\Vanier\Software Development\AppDev (DESKTOP)\Pr
 C:\D\Mtl Living\College learning\Vanier\Software Development\AppDev (DESKTOP)\Project\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.csproj.CopyComplete
 C:\D\Mtl Living\College learning\Vanier\Software Development\AppDev (DESKTOP)\Project\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.exe
 C:\D\Mtl Living\College learning\Vanier\Software Development\AppDev (DESKTOP)\Project\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.pdb
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\LibraryManagementSystem.exe.config
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\LibraryManagementSystem.exe
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\LibraryManagementSystem.pdb
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\Npgsql.dll
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\PresentationCore.dll
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\PresentationFramework.dll
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\System.Buffers.dll
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\System.Collections.Immutable.dll
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\System.Memory.dll
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\System.Numerics.Vectors.dll
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\System.Text.Encodings.Web.dll
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\System.Text.Json.dll
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\System.Threading.Channels.dll
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\System.ValueTuple.dll
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\Npgsql.xml
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\System.Buffers.xml
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\System.Collections.Immutable.xml
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\System.Memory.xml
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\System.Numerics.Vectors.xml
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\System.Text.Encodings.Web.xml
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\System.Text.Json.xml
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\System.Threading.Channels.xml
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\System.ValueTuple.xml
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.csproj.AssemblyReference.cache
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\Adaim_add_book.g.cs
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\Adaim_Register.g.cs
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\Administrator.g.cs
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\Administrator_Register.g.cs
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\Admin_Opr_Reader.g.cs
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\MainWindow.g.cs
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\Admin_Opr_Books.g.cs
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\Reader.g.cs
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\Reader_Borrow.g.cs
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\Reader_Register.g.cs
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\Reader_Return.g.cs
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\User_Register.g.cs
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\App.g.cs
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\LibraryManagementSystem_MarkupCompile.cache
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\LibraryManagementSystem_MarkupCompile.lref
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\Adaim_add_book.baml
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\Adaim_Register.baml
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\Administrator.baml
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\Administrator_Register.baml
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\Admin_Opr_Reader.baml
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\MainWindow.baml
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\Admin_Opr_Books.baml
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\Reader.baml
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\Reader_Borrow.baml
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\Reader_Register.baml
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\Reader_Return.baml
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\User_Register.baml
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.g.resources
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.Properties.Resources.resources
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.csproj.GenerateResource.cache
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.csproj.CoreCompileInputs.cache
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.csproj.CopyComplete
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.exe
+C:\D\Assignment\AppDev\AppDev-Project-YaoWu-ZhengXue\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\LibraryManagementSystem.pdb

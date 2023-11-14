@@ -183,6 +183,8 @@ namespace LibraryManagementSystem
             button.IsEnabled = true;
             borrowUtil = (BookUtil)listView.SelectedItem;
         }
+
+       
     }
 
     public class BookUtil
@@ -196,4 +198,5 @@ namespace LibraryManagementSystem
         public string Number { get; set; }
         public string Surplus { get; set; }
     }
+
 }
